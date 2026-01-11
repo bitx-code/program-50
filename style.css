@@ -1,0 +1,64 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Products */
+.products {
+    text-align: center;
+    padding: 40px;
+}
+
+.product-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 200px;
+}
+
+.product img {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
